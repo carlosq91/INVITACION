@@ -156,7 +156,12 @@
         <h2>Confirmar Asistencia</h2>
         <p style="font-size: 0.95rem; color: #777;">Por favor, ayúdanos a organizar mejor el evento confirmando tu asistencia antes del 16 Julio 2026.</p>
         
-        <form action="https://formspree.io/f/TU_ID_DE_FORMSPREE" method="POST">
+        <form action="https://formsubmit.co/carlosmartincondobermudes@gmail.com" method="POST">
+            <!-- Esto evita que tus invitados tengan que resolver un captcha molesto -->
+    <input type="hidden" name="_captcha" value="false">
+    
+    <!-- Esto redirige a los invitados a una pantalla de agradecimiento bonita propia de FormSubmit -->
+    <input type="hidden" name="_next" value="https://tu-usuario.github.io/invitacion-bautizo/">
             
             <label for="nombre">Nombre Completo:</label>
             <input type="text" id="nombre" name="Nombre" placeholder="Ej. Juan Pérez" required>
